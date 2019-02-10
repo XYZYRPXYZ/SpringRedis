@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Springredis
+
+server:
+  port: 8011
+  context-path: /
