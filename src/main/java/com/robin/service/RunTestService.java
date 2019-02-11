@@ -11,7 +11,7 @@ public class RunTestService {
     RedisCacheManager redisCacheManager;
 
     public String runTestFun() {
-        redisCacheManager.set("robin","2B");
+        redisCacheManager.set("robin","I am Robin");
         return redisCacheManager.get("robin").toString();
     }
 }
